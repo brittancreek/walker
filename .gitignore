@@ -102,3 +102,10 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+## Sublime Text stuff
+*.sublime-project
+*.sublime-workspace
+
+# OS X stuff
+.DS_Store
