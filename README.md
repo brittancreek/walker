@@ -1,1 +1,1 @@
-# walker - a tool for the urban navigator
+# walker - a guide for the urban navigator
