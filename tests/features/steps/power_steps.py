@@ -1,6 +1,5 @@
 """
-Steps for the power control feature - how the user controld power to the device.
-Copyright © 2019 Brittan Creek
+Copyright © Brittan Creek
 """
 import sys
 sys.path.insert(0, '/Users/johnc/Documents/GitHub/life-lites')

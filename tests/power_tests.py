@@ -22,9 +22,5 @@ class TestDevice(unittest.TestCase):
         self.test_device.power_down()
         self.assertFalse(self.test_device.active)
 
-    def tearDown(self):
-        self.test_device.dispose()
-
-
 if __name__ == "__main__":
     unittest.main()

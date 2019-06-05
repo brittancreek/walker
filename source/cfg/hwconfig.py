@@ -1,7 +1,5 @@
 '''
-Pyboard 1.1 Configuration
-
-The Life-lites Project - © 2018, Brittan Creek.
+Copyright © Brittan Creek.
 '''
 
 from micropython import const

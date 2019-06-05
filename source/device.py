@@ -1,6 +1,5 @@
 """
-Device operational mode.
-Copyright © 2019, Brittan Creek.
+Copyright © Brittan Creek.
 """
 
 class Device(object):
