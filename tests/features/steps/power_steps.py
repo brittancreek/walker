@@ -2,7 +2,7 @@
 Copyright © Brittan Creek
 """
 import sys
-sys.path.insert(0, '/Users/johnc/Documents/GitHub/life-lites')
+sys.path.insert(0, '/Users/johnc/Documents/GitHub/walker')
 from source.device import *
 from behave import *
 

@@ -1,12 +1,5 @@
 Feature: power
-    In order to use the features of my device for as long as possible
-    As a device user
-    I want to access a managed supply of power
-    And I want feedback when the device is powering up
-    And I want feedback when the device is operational
-    And I want feedback when the supply of power is low
-    And I want feedback when the device is shutting down
-
+    In order to use the features of my device for as long as possible, as a device user I want to access a managed supply of power, and I want feedback when the device is powering up, when the device is operational, when the supply of power is low, and when the device is shutting down.
 
     @power
     @startup
