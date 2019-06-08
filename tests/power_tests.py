@@ -3,7 +3,7 @@ import unittest
 from unittest.mock import MagicMock, Mock
 import sys
 sys.path.insert(0, '/Users/johnc/Documents/GitHub/walker')
-from source.device import *
+from features.steps.source.device import *
 
 
 class TestDevice(unittest.TestCase):
@@ -21,6 +21,7 @@ class TestDevice(unittest.TestCase):
         self.assertTrue(self.test_device.active)
         self.test_device.power_down()
         self.assertFalse(self.test_device.active)
+
 
 if __name__ == "__main__":
     unittest.main()
