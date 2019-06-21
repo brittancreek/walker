@@ -1,38 +1,28 @@
-Feature: microcontroller management
+Feature: mcu management
+
+Given we put the system in a known state before the user (or external system) starts interacting with the system (in the When steps). Avoid talking about user interaction in givens.
+
+When we take key actions the user (or external system) performs. This is the interaction with your system which should (or perhaps should not) cause some state to change.
+
+Then we observe outcomes.
 
 
-    The MCU controlling our device needs a file structure on the root system consisting at minimum of a boot.py file and a <main>.py file that can be specified in boot.py
 
-DM: Polarity protection: there is no polarity protection.  that is kindergarten engineering with two $0.01 diodes I need to add to my action item list but I would never release a design without that factored in.
+In order to ensure the correct functioning of the microcontroller unit controlling our device, it needs a file structure on the root file system consisting at minimum of a boot.py file and a main.py file.
 
-    Low voltage protection
+Polarity protection: there is no polarity protection.  that is kindergarten engineering with two $0.01 diodes I need to add to my action item list but I would never release a design without that factored in.
 
-we need to add this to power management. low voltage protection/auto shutdown, etc, I need to study MCU features and consider a Microchip management solution.  We may have to use consumable batteries so low voltage dropout is a regular use case.
+    @wip
+    Scenario:
+    Given a production mcu
+    When power is applied
+    Then the mcu should boot up to default state
 
-    @power
-    @startup
-    Scenario: power up
-        Given the microcontroller is powering up
-        When the microcontroller accesses the supply of power
-        Then our device will start up
 
-    @power
-    @shutdown
-    Scenario: power down
-        Given the device is accessing power
-        When we disconnect from the power
-        Then the device will shut down
 
-    @power
-    @operational
-    Scenario: operational feedback
-        Given the device is operating
-        When we glance at the device
-        Then the operational state will be immediately apparent
 
-    @power
-    @operational
-    Scenario: low power feedback
-        Given the device is operating
-        When the power is low
-        Then the low power state will be immediately apparent
+
+
+
+
+
