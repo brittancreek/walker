@@ -1,0 +1,30 @@
+- As I move to it
+	- it activates
+		- it is paired with a device on the person
+		- there could be internet communication
+			- it is a wand and therefore could have remote control function also
+		- if that device is a phone then we need low-level access.
+- For now, as I turn it on.
+	- It comes up in a pleasing way
+		- low power system check
+			- blink each led in turn
+			- API for the led strip?
+	- It gives me a sense of empowerment just to hold it
+		- vibration?
+		- a sense of the central rod going from the handle to the ground
+		- 
+		- 
+		- the frame - lay down the essential components
+			- standard issue housing
+			- street model; street helper
+		- Features
+			- Tip
+				- Temperature sensor
+				- Sonic ground probe 
+				- Lights
+					- Flashlight 
+			- Stick
+				- Lights
+			- Handle
+				- Sensory feedback
+				- 
