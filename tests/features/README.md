@@ -1,5 +1,5 @@
 # walker
-A guide for the urban navigator
+Making strides in pedestrian safety.
 
 -----
 
