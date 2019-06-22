@@ -26,7 +26,7 @@ This is a more rigorous definition than in other agile methodologies, where it i
 [Integrate TDD with BDD: Using Python, Behave, and Mocking](https://medium.com/@springcalvind/integrate-tdd-with-bdd-using-python-behave-and-mocking-5382e42de93d)
 
 ---
-## The London School of Test-Driven Development\
+## The London School of Test-Driven Development
 
 The London school's definitive text is *Growing Object Oriented Software Guided By Tests by Steve Freeman and Nat Pryce.* See the the *#new-user-docs* Slack channel.
 <br/>
