@@ -1,4 +1,4 @@
-Feature: mcu management
+Feature: MCU Management
 
 Given we put the system in a known state before the user (or external system) starts interacting with the system (in the When steps). Avoid talking about user interaction in givens.
 
@@ -17,8 +17,6 @@ Polarity protection: there is no polarity protection.  that is kindergarten engi
     Given a production mcu
     When power is applied
     Then the mcu should boot up to default state
-
-
 
 
 

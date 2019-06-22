@@ -1,4 +1,4 @@
-Feature: power management
+Feature: Power Management
     The device needs to access a supply of power and to manage it in order to maximize device performance. The user needs feedback when the device is powering up, when the device is operational, when the supply of power is low, when the device requires attention and when the device is shutting down.
 
     The MCU controlling our device needs a file structure on the root system consisting at minimum of a boot.py file and a <main>.py file that can be specified in boot.py

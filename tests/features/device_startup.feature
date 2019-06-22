@@ -1,4 +1,4 @@
-Feature: startup
+Feature: Device Startup
     In order to know that my device is activating successfully
     As a device user
     I want a bunch of feedback
