@@ -6,7 +6,9 @@ Feature: Device Operation
     DM: part of my vision was to have no on/off switch but rather a touch sensitive switch. we should have an RTC based interrupt detection we can use. e.g. tap the device and 'beam me up Scotty'
 
 
-
+### Peripheral Recognition
+- [ ] Angular motion speed to determine LED step rate.
+- [ ] Color considerations? 550nM green?
 
 
 Ambient Light Sensing
