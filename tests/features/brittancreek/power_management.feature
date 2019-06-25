@@ -5,13 +5,7 @@ Feature: Power Management
     and when the device requires attention.
 
 
-### Day-Night Mode
-- [ ] Photo sensor for day/night operation
--- infinite loop mode
--- is it day or are we in a headlight beam?
--- more complex than binary
-- [ ] Keys off ambient light level in Bootstrap
-- [ ] Implies thread monitoring light level
+
 
     Scenario: device operational feedback
         Given the device is operating

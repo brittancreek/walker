@@ -1,17 +1,4 @@
-Feature: Device Operation
-    In order to know that my device is activating successfully
-    As a device user
-    I want a bunch of feedback
-
-    DM: part of my vision was to have no on/off switch but rather a touch sensitive switch. we should have an RTC based interrupt detection we can use. e.g. tap the device and 'beam me up Scotty'
-
-
-### Peripheral Recognition
-- [ ] Angular motion speed to determine LED step rate.
-- [ ] Color considerations? 550nM green?
-
-
-Ambient Light Sensing
+Feature: Ambient Light Sensing
 
 The device needs to device to adapt to its surroundings of Day/night and to detect headlight illumination and make the right choices of how best to use battery power while stiull meeting the visibility requirements.
 
@@ -19,6 +6,10 @@ Hardware solution can involve photo sensors at orthogonal angles and logic/inter
 
 Daytime, nighttime, and headlight illumination modes should be considered.
 
+I am thinking 2-3 verticle sensors for day/night and 1-2 horizontal for headlight detection.  I have not figured out the appropriate response but detecting headlights is the best car detector Idea I thought of yet. in a city setting, there are cars everywhere.  the ones coming towards you are the most significant.
 
 
-
+### Day-Night Mode
+- [ ] Photo sensor for day/night operation
+-- is it day or are we in a headlight beam?
+-- more complex than binary
