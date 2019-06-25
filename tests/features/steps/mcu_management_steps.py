@@ -1,19 +1,21 @@
-''' Copyright © Brittan Creek '''
+'''
+mcu_management_steps.py
 
-from source.device import *
+Copyright © Brittan Creek
+'''
 from behave import *
 
+import pathlib
 
 @given(u'a production mcu')
 def step_impl(context):
-    raise NotImplementedError(u'STEP: Given a production mcu')
-
+    context.bootfile = pathlib.Path('features/steps/source/boot.py')
 
 @when(u'power is applied')
 def step_impl(context):
-    raise NotImplementedError(u'STEP: When power is applied')
-
+    context.mainfile = pathlib.Path('features/steps/source/main.py')
 
 @then(u'the mcu should boot up to default state')
 def step_impl(context):
-    raise NotImplementedError(u'STEP: Then the mcu should boot up to default state')
+    assert context.bootfile.exists(), "Error: Missing boot.py file."
+    assert context.mainfile.exists(), "Error: Missing main.py file."
