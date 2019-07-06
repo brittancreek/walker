@@ -13,3 +13,5 @@ I am thinking 2-3 verticle sensors for day/night and 1-2 horizontal for headligh
 - [ ] Photo sensor for day/night operation
 -- is it day or are we in a headlight beam?
 -- more complex than binary
+
+I am sure we will be able to tell night and day and likely, headlight detection electronically but what is the appropriate response. at night under headlight illumination is a great intelligence but we do not yet know the response.
