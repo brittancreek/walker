@@ -1,3 +1,4 @@
+@v1.0
 Feature: Device Traits
 
 # JC: This from a project proposal write-up in the archives

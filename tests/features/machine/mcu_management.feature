@@ -1,5 +1,5 @@
 @wip
-@1.0
+@v1.0
 Feature: MCU Management
 
 In order to ensure the correct functioning of the microcontroller unit handling our device, it needs a file structure on the root file system of the MCU consisting at minimum of a boot.py file and a main.py file.

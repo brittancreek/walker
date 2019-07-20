@@ -1,4 +1,4 @@
-@1.0
+@v1.0
 Feature: Color Definition
 
 Hue is the term for color in science. Red Green and Blue are additive primaries that respond to the Cones in our central/foveal vision. Electronics like TVs and screens use Additive Primaries.

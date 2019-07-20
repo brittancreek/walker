@@ -1,4 +1,4 @@
-@2.0
+@v2.0
 Feature: Power Management
     The micro-controller needs to manage the supply of power to maximize device performance.
     The user needs feedback when the device is operational,

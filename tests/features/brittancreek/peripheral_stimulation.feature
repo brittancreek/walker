@@ -1,4 +1,4 @@
-@1.0
+@v1.0
 Feature: Peripheral Stimulation
 
 Peripheral Recognition

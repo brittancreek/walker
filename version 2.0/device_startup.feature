@@ -1,3 +1,4 @@
+@v2.0
 Feature: Device Startup
 
 When the MCU is powered up, it should activate the device. The device will display some indication that it is coming up, and then drop into an operational mode where it is listening for input from the user.
