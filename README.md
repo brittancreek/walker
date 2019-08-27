@@ -1,6 +1,12 @@
-# walker
-A guide for the urban navigator, making strides in pedestrian safety.
+### Walker
+
+A guide for the urban navigator.
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+This project uses [Semantic Versioning](https://semver.org/)
 
 -----
-
-This project uses [Semantic Versioning](https://semver.org/)
+**Brittan Creek** - making strides in pedestrian safety.
