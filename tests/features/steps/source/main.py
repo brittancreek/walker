@@ -8,13 +8,17 @@ r = const(0)
 g = const(64)
 b = const(0)
 px = const(12)
-d = const(50)
+d = const(30)
 m = const(5)
+
+def gesture_captured(x):
+    pin0.write_digital(x)
 
 
 # ring
 np = neopixel.NeoPixel(pin1, px)
 np.clear()
+
 
 while True:
 
@@ -40,6 +44,3 @@ while True:
                 break
 
         sleep(d * m)
-
-    def gesture_captured(x):
-        pin0.write_digital(x)

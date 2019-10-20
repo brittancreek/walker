@@ -1,3 +1,7 @@
+**2019-10-18**
+“Area prostriata responds strongly to very fast motion, greater than 500°/s. The functional properties of area prostriata suggest that it may serve to alert the brain quickly to fast visual events, particularly in the peripheral visual field.”
+John, I bet we can evaluate, we should have no problem rotating around our ring at 720 Deg/sec. 2 full rotations of one led of 12 = 2x 360. 360/12 is 30 deg/step which exceeds ARL minimum recognition. if I interpreted correctly.
+
 **2019-08-15**
 
 *ok, here is a strategy, untill we know better 3 photo transistors for reliable day/night and 2 headlight detectors may be read at time intervals. e.g. sample rate. if we have threading, low overhead and not blocking?*
