@@ -25,7 +25,7 @@ while True:
     if accelerometer.was_gesture('shake') is True:
         gesture_captured(True)
 
-        end_while = False
+        deactivate = False
         accelerometer.get_gestures()
 
         while True:
@@ -37,10 +37,10 @@ while True:
                 if accelerometer.was_gesture('shake') is True:
                     accelerometer.get_gestures()
                     gesture_captured(False)
-                    end_while = True
+                    deactivate = True
                     break
 
-            if end_while:
+            if deactivate:
                 break
 
         sleep(d * m)
